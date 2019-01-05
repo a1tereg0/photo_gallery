@@ -1,0 +1,40 @@
+/*Site Colors:
+#1A446C : BLUE GREY
+#689DC1 : LIGHT BLUE
+#D4E6F4 : VERY LIGHT BLUE
+#EEE4B9 : LIGHT TAN
+#8D0D19 : BURGUNDY
+*/
+html{height:100%;width:100%;}
+body{height:100%;width:100%;margin:0;padding:0;border:0;background: #ffffff;font:13px/15px Verdana, Arial, Helvetica,sans-serif;color:#DDDDDD; }
+
+table, tr, td, tr {border-collapse: collapse;vertical-align: top;text-align: left;font:13px/15px Verdana, Arial, Helvetica,sans-serif;}
+a{color:#DDDDDD;}
+#header{height: 70px;text-align: left;background: #111111;color:#DDDDDD;}
+#header h1{padding: 1em;margin:0;}
+#main{min-height: 770px;width:100%;background: linear-gradient(to right, #232526, #414345);padding: 2em;}
+#footer{height: 2em;padding: 1em;text-align: center;background: #111111;color: #DDDDDD;}
+table.bordered tr th, table.bordered tr td {border:1px solid #000000;}
+#pagination{margin: 0.5em;padding: 0.5em;}
+#pagination .selected { font-weight: bold; color:#DDDDDD; background-color:#85144b;}
+#pagination a{background-color:#111111; text-decoration: none; }
+#pagination a:hover{background-color:#85144b;}
+
+figure {
+  display: table;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+figcaption {
+  display: table-caption;
+  caption-side: top;
+}
+
+figure.list-photos {
+	float: left;
+}
