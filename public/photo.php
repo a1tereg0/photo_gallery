@@ -20,7 +20,7 @@ if (isset($_POST["submit"])) {
 		// No message needed; seeing the comment is proof enough
 
 		// send email
-		$new_comment->send_notification();
+		// $new_comment->send_notification();
 
 		// Important! You could just let the page render from here
 		// But then if the page is reloaded, the form will try
